@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/dialog"
+        style="@android:style/Animation.Dialog"
+        android:layout_width="290dp"
+        android:layout_height="132dp"
+        android:layout_centerHorizontal="true"
+        android:background="@android:drawable/screen_background_dark"
+        android:ellipsize="start"
+        android:gravity="center"
+        android:shadowColor="@android:color/holo_blue_light"
+        android:text="Persona Detectada!!"
+        android:textAppearance="@android:drawable/ic_delete"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:theme="@android:style/Animation.Dialog" />
+
+</LinearLayout>
